@@ -16,6 +16,7 @@ class AppFixtures extends Fixture
         $user->setPassword('$2y$13$nLf0MAlwK3oQBNVeZJaXduk2O5CzhldPfG/9lDNCNgD5pHTaiIyOS');
         $user->setFirstname('Laet');
         $user->setLastname('Fajitas');
+        $user->setPhoneNumber('0680282331');
         $manager->persist($user);
 
         $manager->flush();
